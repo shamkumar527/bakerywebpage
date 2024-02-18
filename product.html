@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCANTO PATISSERIE</title>
+    <link rel="shortcut icon" href="encanto.png.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbarlinks">
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+
+        <h1><a href="index.html">ENCANTO PATISSERIE</a></h1>
+        <ul>
+            <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+            <li class="hideOnMobile"><a href="product.html">PRODUCTS</a></li>
+            <li class="hideOnMobile"><a href="gallery.html">GALLERY</a></li>
+            <li class="hideOnMobile"><a href="contact.html">CONTACT US</a></li>
+            <li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>   
+     
+    </nav>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    
+    </script>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quisquam perferendis excepturi architecto tempora facilis vitae dolorem iure rerum perspiciatis cupiditate incidunt illo, neque enim dolor assumenda officia eaque ea illum amet necessitatibus dolorum id corporis? Saepe tempore voluptatum quibusdam omnis consectetur laboriosam placeat a perferendis, qui in iusto, repudiandae ab dolore quam possimus sit laborum. Voluptatum molestias nobis animi dignissimos quidem quia magni atque impedit? Non ut dicta beatae eum explicabo in. Vero accusantium explicabo et ex facere obcaecati culpa iusto laudantium accusamus autem, velit numquam possimus unde est totam minus quaerat suscipit nesciunt laborum minima cupiditate sed veniam. Sed doloremque dolore laborum eos tempore perferendis suscipit cum nobis ipsa magnam ipsam et rerum maiores, nesciunt enim, earum rem, necessitatibus libero. Illo consequatur iste necessitatibus animi repellendus aut adipisci quas minima ab quis! Earum molestiae sunt, doloremque modi vero quibusdam nisi aperiam veniam dignissimos. Voluptatibus maiores soluta sint officiis sequi accusamus dicta? Aperiam, vel ex atque voluptate impedit et at sequi nihil architecto eveniet labore veniam temporibus qui eius! Quod, totam. Aperiam labore vel, debitis vero quaerat molestias quibusdam id neque amet esse quae, repellat, molestiae ut perspiciatis iure quasi cum voluptas ipsa dicta aliquam laudantium doloremque. Quasi, voluptates?</p>
+
+</body>
+</html>
